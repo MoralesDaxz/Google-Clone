@@ -8,7 +8,7 @@ const HomeHeader = () => {
         { label: 'Images', ref: 'https://image.google.com' }
     ]
     return (
-        <header className='flex justify-end p-2 text-sm'>
+        <header className='w-full flex justify-end p-2 text-sm'>
             <div className='flex space-x-4 items-center'>
                 {routes.map((item) => {
                     return (
